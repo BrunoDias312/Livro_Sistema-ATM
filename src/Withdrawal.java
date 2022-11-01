@@ -106,7 +106,7 @@ public class Withdrawal extends Transaction {
             switch (input) {
                 case 1: // se o usuário escolheu uma quantia de saque
                 case 2: // (isto é, escolheu a opção 1, 2, 3, 4 ou 5), retorna a
-                case 3: // quantia correspondente do array de quantias
+                case 3: // quantia corresponbdente do array de quantias
                 case 4:
                 case 5:
                     userChoice = amounts[input]; // salva a escolha do usuário
